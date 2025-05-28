@@ -58,7 +58,7 @@ for (var i = 0; i < links.length; i++) {
   a.classList.add('link');
   // texte et href issus des attributs "text" et "url" de l’élément
   a.textContent = link.Title;
-  a.href = link.url;
+  a.href = link.Url;
   document.body.appendChild(a);
   // on l’ajoute à la liste des éléments
   anchors.push(a);
